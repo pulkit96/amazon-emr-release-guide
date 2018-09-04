@@ -21,7 +21,7 @@ Before you install and work with SQL Workbench/J, download the driver package an
    ssh -o ServerAliveInterval=10 -i path-to-key-file -N -L 10000:localhost:10000 hadoop@master-public-dns-name
    ```
 
-   **Windows users**: In a PuTTY session, create an SSH tunnel to the master node of your cluster \(using local port forwarding\) with `1000` for **Source port** and `master-public-dns-name:10000` for **Destination**\. Replace `master-public-dns-name` with the public DNS name of the master node\.
+   **Windows users**: In a PuTTY session, create an SSH tunnel to the master node of your cluster \(using local port forwarding\) with `10000` for **Source port** and `master-public-dns-name:10000` for **Destination**\. Replace `master-public-dns-name` with the public DNS name of the master node\.
 
 1. Add the JDBC driver to SQL Workbench\.
 
